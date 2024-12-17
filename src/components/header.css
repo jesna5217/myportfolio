@@ -1,0 +1,30 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;}
+header div{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  
+}
+.lists li{
+    display: inline;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+header p{
+    font-size: 30px;
+   font-weight: 600;  
+ 
+}
+.lists li a:hover{
+    color: rgb(115, 189, 111);
+    transition: .5s ease-in-out;
+}

@@ -1,0 +1,336 @@
+.lists li a{
+  text-decoration: none;
+  color: white;
+}
+.container{
+    padding-top: 100px;
+}
+.about-row{
+ 
+  padding-top: 100px;
+  padding-left: 100px;
+  height: 700px;
+}
+.about{
+  margin-top: 100px;
+}
+.name-line{
+    font-size: 40px;
+}
+.name{
+    font-size: 45px;
+    font-weight: 600;
+}
+.developer{
+    color:  rgb(115, 189, 111);
+    font-size: 25px;
+    font-weight: 500;
+}
+.skill-row{
+    padding: 100px;
+}
+.desc{
+    font-size: 15px;
+}
+.title{
+    color: rgb(115, 189, 111);
+    font-weight:700;
+}
+.button{
+    background-color:  rgb(115, 189, 111);
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.phone{
+    height: 50px;
+
+  
+}
+.icon{
+    margin-right: 100px;
+    color:  rgb(115, 189, 111);
+}
+.contact{
+    padding:50px 300px;
+    
+}
+
+/* about */
+
+.education{
+    height: 100vh;
+}
+.timeline-items {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(115, 189, 111);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    width: 100%;
+    
+    position: relative;
+  }
+  
+  .timeline-item:nth-child(odd) {
+    text-align: right;
+    padding-right: calc(50% + 30px);
+    
+  }
+  
+  .timeline-item:nth-child(even) {
+    text-align: left;
+    padding-left: calc(50% + 30px);
+  }
+  
+  .timeline-dot {
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    background-color: rgb(115, 189, 111);
+    box-shadow: 0 0 25px rgb(115, 189, 111), 0 0 50px rgb(115, 189, 111);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-date {
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    margin: 6px 0 15px;
+  }
+  
+  .timeline-content {
+    width: 580px;
+    border: 3px solid rgb(115, 189, 111);
+    padding: 10px 40px;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(115, 189, 111);
+    transition: 0.3s ease-in-out;
+    
+  }
+  
+  .timeline-content:hover {
+    transform: scale(1.05);
+    background-color: rgba(115, 189, 111, 0.1);
+  }
+  .timeline-content h3{
+    font-size: 18px;
+    color: rgb(115, 189, 111) ;
+  }
+  .timeline-content p{
+    font-size: 13px;
+  }
+  .aboutme-row{
+    height: 650px;
+ 
+  }
+  .para{
+    margin-top: 90px;
+    font-size: 18px;
+  }
+  .dwnld {
+    background-color: rgb(115, 189, 111);
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+   border-radius: 20px;
+  }
+  .download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 600px) {
+    nav{
+      display: none;
+    }
+    .container{
+      padding-top: 100px;
+  }
+  .about-row{
+   margin-bottom: 100px;
+    padding-top: 70px;
+    padding-left: 20px;
+    height: auto;
+  }
+  .about{
+    margin-top: 1px;
+  }
+  .name-line{
+      font-size: 20px;
+  }
+  .name{
+      font-size: 25px;
+      font-weight: 600;
+  }
+  .developer{
+      color:  rgb(115, 189, 111);
+      font-size: 25px;
+      font-weight: 500;
+  }
+  .profile{
+    height: 200px;
+
+  }
+  .pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-row{
+      padding: 50px 20px
+  }
+  .desc{
+      font-size: 15px;
+  }
+
+
+  .pro {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon{
+      margin-right: 10px;
+      color:  rgb(115, 189, 111);
+  }
+  .contact{
+      padding:0px 0px;
+      
+  }
+  .contact p{
+    font-size: 14px;
+  }
+  
+  /* about */
+  
+  .education{
+      height: auto;
+  }
+  .timeline-items {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+    }
+    
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      width: 0px;
+      height: 100%;
+      background-color: rgb(115, 189, 111);
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .timeline-item {
+      width: 100%;
+      
+      position: relative;
+    }
+    
+    .timeline-item:nth-child(odd) {
+      text-align: left;
+      padding-right: 0;
+      
+    }
+    
+    .timeline-item:nth-child(even) {
+      text-align: left;
+      padding-left: 0;
+    }
+    
+    .timeline-dot {
+      display: none;
+    }
+    
+    .timeline-date {
+      font-size: 20px;
+      font-weight: 200;
+      color: white;
+      margin: 6px 0 15px;
+    }
+    
+    .timeline-content {
+      width: 350px;
+      border: 3px solid rgb(115, 189, 111);
+      padding: 10px 40px;
+      border-radius: 2rem;
+      box-shadow: 0 0 10px rgb(115, 189, 111);
+      transition: 0.3s ease-in-out;
+      
+    }
+    
+    .timeline-content:hover {
+      transform: scale(1.05);
+      background-color: rgba(115, 189, 111, 0.1);
+    }
+    .timeline-content h3{
+      font-size: 18px;
+      color: rgb(115, 189, 111) ;
+    }
+    .timeline-content p{
+      font-size: 13px;
+    }
+   
+    .aboutme-row{
+      height: auto;
+   
+    }
+    .bio img {
+      height: 200px;
+  
+    }
+    .bio{
+      display: flex;
+      justify-content: center;
+    }
+    .para{
+      margin-top: 20px;
+      font-size: 14px;
+      padding: 20px;
+    }
+    .java{
+     
+      display: flex;
+      justify-content: center;
+      align-items:center
+    }
+ .java img{
+  height: 100px;
+  margin-bottom: 40px;
+ }
+ .dwnld {
+  
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+ border-radius: 20px;
+}
+  }
