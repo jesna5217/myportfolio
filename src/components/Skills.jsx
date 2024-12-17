@@ -33,6 +33,9 @@ function Skills() {
 {
     id:5,
     image:"../assets/express-js.png"
+},{
+    id:6,
+    image:"../assets/MongoDB.png"
 }]
   return (
   <>
@@ -41,7 +44,7 @@ function Skills() {
     <div className='row d-flex justify-content-center mt-5'>
        {
         skills.map((data)=>(
-            <div className="col-md-2 col-xs-6 java" data-aos="zoom-in">
+            <div className="col-md-1 col-xs-6 java" data-aos="zoom-in">
                 <img src={data.image} alt=""  height="70px" />
             </div>
         ))

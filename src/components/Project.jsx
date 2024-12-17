@@ -29,7 +29,7 @@ function Project() {
     title:"Netflix Clone",
     image:"../assets/Screenshot 2024-08-20 185555.png",
     desc:"A React app featuring API integration to fetch and display movies dynamically with seamless user interface.",
-    link:""
+    link:"https://chic-kashata-f889bc.netlify.app/"
 },
 {id:2,
     title:"Purple Clone",

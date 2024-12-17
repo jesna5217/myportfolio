@@ -16,7 +16,7 @@ function Contact() {
     </div>
   <div className='d-flex'>
   <i class="fa-brands fa-github icon"></i>
-  <p><a href="https://github.com/jesna5217" style={{textDecoration:"none",color:"white"}}>https://www.linkedin.com/in/jesnajose2000</a></p>
+  <p><a href="https://github.com/jesna5217" style={{textDecoration:"none",color:"white"}}>https://github.com/jesna5217</a></p>
   </div>
 <div className='d-flex'>
 <i class="fa-brands fa-linkedin icon"></i>

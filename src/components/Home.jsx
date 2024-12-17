@@ -40,7 +40,7 @@ function Home() {
             <p className='name-line'>I am <span className='name'><span style={{  color:' rgb(115, 189, 111)'}}>JESNA </span>JOSE</span></p>
             <p className='developer'>FULL <span style={{color:"white"}}>STACK</span> DEVELOPER</p>
             <div>
-            
+            <p className='profile-content'>Passionate Full-Stack Developer with expertise in React, Redux, and JavaScript, dedicated to building dynamic and responsive web applications that deliver exceptional user experiences!</p>
 
             </div>
         </div>
